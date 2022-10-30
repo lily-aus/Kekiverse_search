@@ -6,12 +6,11 @@ const port = 3000
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Welcome to Kekiverse Search!')
 });
 
 // load the kekData.json file
 let jsonData = require('./kekData.json');
-console.log(jsonData);
 
 
 // Create the dictionary for search
@@ -19,7 +18,6 @@ const kekDict = new Object();
 for (data of jsonData) {
     kekDict[data.noun] = data
 };
-console.log(kekDict);
 
 // search function
 app.get('/search', (req, res) => {

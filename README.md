@@ -1,6 +1,9 @@
 # Kekiverse Search
 This project provides the search service to the website - “Kekiverse”.
 
+# Current server address
+http://ec2-175-41-225-219.ap-northeast-1.compute.amazonaws.com:3000/
+
 ## How to REQUEST data
 This project exposes one endpoint to accept the search request:
 

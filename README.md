@@ -15,7 +15,14 @@ This project exposes one endpoint to accept the search request:
 The http protocol is adopted in this microservice, so the date will be responded and sent back immediately after the request is received and processed. The data will be stored in the http response body.
 
 ## UML sequence diagram
-
+```seq
+Andrew->China: Says Hello 
+Note right of China: China thinks\nabout it 
+China-->Andrew: How are you? 
+Andrew->>China: I am good thanks!
+```
+  
+  
 ## License
 
 **Free tool for use, Yeah!**

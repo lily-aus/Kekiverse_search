@@ -15,7 +15,7 @@ This project exposes one endpoint to accept the search request:
 
 
 ## How to RECEIVE data
-The http protocol is adopted in this microservice, so the date will be responded and sent back immediately after the request is received and processed. The data will be stored in the http response body.
+The http protocol is adopted in this microservice, so the data will be responded and sent back immediately after the request is received and processed. The data will be stored in the http response body.
 
 ## UML sequence diagram
 ![alt text](/SequenceDiagram.jpg)

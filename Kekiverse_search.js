@@ -5,7 +5,9 @@
 
 const express = require('express')
 const app = express()
-app.use(express.static('public'))
+const cors = require('cors');
+app.use(express.static('public'));
+app.use(cors());
 
 var exphbs = require('express-handlebars');
 app.engine('handlebars', exphbs.engine({ defaultLayout: null }));
